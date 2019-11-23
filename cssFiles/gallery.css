@@ -1,0 +1,13 @@
+img { width: 800px;
+	height: auto;
+	float: left;
+	padding-right: 1em;
+	padding-bottom: 2em;
+	display: block; }
+h2 {color: #8B0000;
+	font-family: verdana, sans-serif; }
+footer { font-size: 80%;
+	text-align: center;
+	padding: 2em; }
+.gallery {margin: 0 2em 5em 2em;
+	clear: both; }

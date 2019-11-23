@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The Art of Supergiant</title>
+<meta charset="utf-8">
+<meta name="description" content="Sign up for a newsletter about Supergiant Games.">
+<link rel="stylesheet" href="cssFiles/final.css">
+</head>
+<body>
+<div id="wrapper">
+<header>
+<a href="index.html"><h1>The Art of Supergiant</h1></a>
+</header>
+<nav>
+	<a href="index.html">Home</a>
+	<a href="artists.html">Artists</a>
+	<a href="gallery.html">Gallery</a>
+	<a href="contact.html">Contact</a>
+</nav>
+<main>
+<form name="newsletter" method="post" id="newsletter" action="contact.php">
+<div id="formtitle"> Subscribe to Our Newsletter </div>
+	<label for="name">*Name:</label>
+		<input type="text" name="name" id="name" required="required"><br>
+	<label for="email">*Email:</label>
+		<input type="email" name="email" id="email" required="required">
+	<br><strong>Recieve emails for the following games:</strong> <br>
+	<input type="checkbox" name="Bastion" id="Bastion"
+		value="yes"> Bastion<br>
+	<input type="checkbox" name="Transistor" id="Transistor"
+		value="yes"> Transistor<br>
+	<input type="checkbox" name="Pyre" id="Pyre"
+		value="yes"> Pyre<br>
+	<input type="checkbox" name="Hades" id="Hades"
+		value="yes"> Hades<br>
+	<label for="option">Select your preferred newsletter delivery:</label> <br>
+	<select size="1" name="option" id="option">
+		<option value="weekly">Weekly</option>
+		<option value="Monthly">Monthly</option>
+		<option value="Annually">Annually</option>
+	</select>
+	<br><label for="date">Begin Date:</label><br>
+		<input type="date" name="date" id="date">
+	<br><label for="comments">Comments:</label><br>
+		<textarea name="comments" id="comments" rows="2" cols="30">
+	</textarea>
+	<br><input type="submit" value="Submit">
+	<input type="reset">
+</form>
+</main>
+<footer>
+	<a href="https://www.supergiantgames.com">Supgergiant Games official site</a>
+</footer>
+</div>
+</body>
+</html>
